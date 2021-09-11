@@ -1,0 +1,168 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 30px 10px;
+}
+
+/* Timer */
+
+.timer {
+    margin: 40px auto 20px;
+    text-align: center;
+
+    margin: 35px 10px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.timer-title {
+    margin-bottom: 40px;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    margin-top: 15px;
+
+    display: block;
+
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.timer-block {
+    display: inline-block;
+
+    width: 120px;
+    height: 130px;
+
+    margin: 10px 27px 60px;
+
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    font-size: 20px;
+    font-weight: 400;
+
+    border-radius: 5px;
+}
+
+.timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700
+}
+
+.conteiner-timer {
+
+    position: relative;
+
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    margin: 30px auto ;
+    margin-bottom: 0;
+
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.timer-txt {
+    width: 550px;
+    font-family: inherit;
+    background-color: rgba(179, 223, 210, 0.022);
+}
+
+.timer-txt h2 {
+    text-align: center;
+}
+
+.timer-txt:after {
+    position: absolute;
+
+    top: 15px;
+    right: 560px;  
+    content: "";
+    height: 1px;
+    width: 260px;
+    display: block;
+    background-color: #000;
+}
+
+.timer-txt h2 {
+    margin: 40px 30px 20px;
+} 
+
+.timer-txt p:nth-child(3) {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
